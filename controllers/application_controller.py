@@ -69,6 +69,8 @@ class ApplicationController:
         self.course_repository.add_course(program_id, course_name, grade, minimum_required_grade)
         cli_view.show_message("Prerequisite course added successfully.")
 
+# The controller delegates readiness checking to the service layer.
+# The service uses the Factory and Strategy patterns internally.
     def view_readiness(self):
         program_id = cli_view.prompt_program_id()
         result = self.readiness_service.check_readiness(program_id)
