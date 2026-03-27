@@ -1,3 +1,6 @@
+# Repository Pattern:
+# This repository manages prerequisite course data in the database.
+
 from typing import List, Tuple
 
 from repositories.db_connection import get_connection
