@@ -1,3 +1,6 @@
+# Repository Pattern:
+# This repository handles storing and retrieving deadline data.
+
 from typing import List, Tuple
 
 from repositories.db_connection import get_connection
