@@ -1,3 +1,7 @@
+# MVC Pattern:
+# This controller handles user requests from the CLI view
+# and coordinates actions between the view, services, and repositories.
+
 from repositories.deadline_repository import DeadlineRepository
 from repositories.program_repository import ProgramRepository
 from repositories.course_repository import CourseRepository
