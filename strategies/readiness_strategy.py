@@ -1,3 +1,7 @@
+# Concrete Strategy:
+# This class implements the default readiness evaluation logic
+# by checking average grade and minimum course requirements.
+
 class ReadinessStrategy:
     """
     Strategy interface for readiness evaluation.
