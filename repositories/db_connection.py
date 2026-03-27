@@ -1,3 +1,5 @@
+# Database connection helper:
+# This file centralizes PostgreSQL connection setup using environment variables.
 import os
 
 import psycopg2
