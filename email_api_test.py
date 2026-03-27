@@ -5,6 +5,9 @@ from typing import Any, Dict
 import requests
 from dotenv import load_dotenv
 
+# Web API demonstration:
+# This script shows basic usage of the selected external email API (Resend).
+# It sends a test request and prints the API response.
 
 load_dotenv()
 
