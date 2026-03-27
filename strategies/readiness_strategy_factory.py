@@ -1,3 +1,7 @@
+# Repository Pattern:
+# This repository handles all database operations related to nursing programs.
+# It keeps SQL logic separate from the rest of the application.
+
 from strategies.basic_readiness_strategy import BasicReadinessStrategy
 
 
