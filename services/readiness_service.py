@@ -2,6 +2,13 @@ from repositories.program_repository import ProgramRepository
 from repositories.course_repository import CourseRepository
 from strategies.readiness_strategy_factory import ReadinessStrategyFactory
 
+# Service layer:
+# This class contains business logic for evaluating application readiness.
+# It also uses the Factory pattern to create the correct strategy object.
+
+# Factory Pattern:
+# Create the readiness strategy object without hard-coding
+# object creation directly into the controller.
 
 class ReadinessService:
     """
